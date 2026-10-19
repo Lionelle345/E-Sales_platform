@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff8f5">
+    <title>E-Sales — Find your next favorite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="announcement"><strong>A LITTLE SOMETHING EXTRA</strong> &nbsp; Free shipping on orders over $75</div>
+    <header>
+        <nav class="nav" aria-label="Main navigation">
+            <button class="menu-button" id="menuButton" aria-label="Open menu">☰</button>
+            <a class="brand" href="#top" aria-label="E-Sales home">E<span>·</span>Sales</a>
+            <div class="nav-links" id="navLinks"><a href="#shop">Shop all</a><a href="#shop"
+                    data-nav-category="Home">Home</a><a href="#shop" data-nav-category="Accessories">Accessories</a><a
+                    href="#story">Our story</a></div>
+            <div class="nav-actions"><button class="text-button" id="loginButton">Sign in</button><button
+                    class="cart-button" id="cartButton" aria-label="Open shopping bag">Bag <span class="cart-count"
+                        id="cartCount">0</span></button></div>
+        </nav>
+    </header>
+    <main id="top">
+        <div class="hero-wrap">
+            <section class="hero" aria-label="Featured collections">
+                <article class="slide slide-one active">
+                    <div class="hero-copy">
+                        <p class="eyebrow">The everyday edit · 01 / 03</p>
+                        <h1>Good things.<br>Better days.</h1>
+                        <p>Thoughtful finds for the little rituals that make a day feel like yours.</p><a
+                            class="primary-button" href="#shop">Shop the collection <span
+                                aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="hero-art"><img
+                            src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=900&q=85"
+                            alt="Warm, considered home interior with a relaxed chair"></div>
+                </article>
+                <article class="slide slide-two">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Made for the moment · 02 / 03</p>
+                        <h1>A softer<br>sort of style.</h1>
+                        <p>Pieces with a point of view, made to be worn on repeat and loved for longer.</p><a
+                            class="primary-button" href="#shop" data-hero-category="Accessories">Meet your new favorites
+                            <span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="hero-art"><img
+                            src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=900&q=85"
+                            alt="Thoughtfully styled wardrobe in soft neutral tones"></div>
+                </article>
+                <article class="slide slide-three">
+                    <div class="hero-copy">
+                        <p class="eyebrow">Room to unwind · 03 / 03</p>
+                        <h1>Make yourself<br>at home.</h1>
+                        <p>Easy, useful details that bring a little more calm and character to your space.</p><a
+                            class="primary-button" href="#shop" data-hero-category="Home">Find your home edit <span
+                                aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="hero-art"><img
+                            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+                            alt="Sunlit living room with warm natural textures"></div>
+                </article>
+                <div class="hero-control"><button class="hero-arrow" id="previousSlide"
+                        aria-label="Previous slide">←</button><button class="hero-arrow" id="nextSlide"
+                        aria-label="Next slide">→</button>
+                    <div class="hero-dots" id="heroDots" aria-label="Choose a slide"></div><span class="hero-count"
+                        id="heroCount">01 / 03</span>
+                </div>
+            </section>
+        </div>
+        <div class="trust-row" aria-label="Shopping benefits">
+            <div class="trust-item"><b>✳</b> Considered, quality-first finds</div>
+            <div class="trust-item"><b>↗</b> Free shipping over $75</div>
+            <div class="trust-item"><b>↺</b> Easy 30-day returns</div>
+            <div class="trust-item"><b>♡</b> Small details, big joy</div>
+        </div>
+        <section class="shop-section" id="shop">
+            <div class="section-top">
+                <div>
+                    <p class="section-kicker">A good place to start</p>
+                    <h2>Find your next favorite.</h2>
+                </div>
+                <p class="section-note" id="categoryDescription">Little upgrades for your everyday.</p>
+            </div>
+            <div class="category-tabs" id="categoryTabs" role="tablist" aria-label="Product categories"></div>
+            <div class="products" id="products" aria-live="polite"></div>
+        </section>
+        <section class="editorial" id="story">
+            <div class="editorial-inner"><img class="editorial-image"
+                    src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1100&q=85"
+                    alt="A bright, welcoming living space with natural materials">
+                <div class="editorial-copy">
+                    <p class="section-kicker">A little more intention</p>
+                    <h2>Buy less.<br>Love it longer.</h2>
+                    <p>We believe the best things earn their place in your home and your routine. So we look for useful,
+                        lasting pieces with a little extra something.</p><a class="plain-link" href="#shop">Explore our
+                        point of view <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-inner">
+            <div><a class="brand" href="#top">E<span>·</span>Sales</a>
+                <p>Find your next favorite.</p>
+            </div>
+            <div class="footer-links"><a href="#shop">Shop</a><a href="#story">Our story</a><a
+                    href="mailto:hello@e-sales.example">Contact</a><a href="#top">Instagram</a></div>
+        </div>
+    </footer>
+    <div class="overlay" id="overlay"></div>
+    <aside class="drawer" id="cartDrawer" aria-label="Shopping bag" aria-modal="true" role="dialog">
+        <div class="drawer-head">
+            <h2>Your bag <span id="bagItemCount"></span></h2><button class="close-button" id="closeCart"
+                aria-label="Close shopping bag">×</button>
+        </div>
+        <div class="cart-items" id="cartItems"></div>
+        <div class="cart-foot">
+            <div class="subtotal"><span>Subtotal</span><strong id="cartSubtotal">$0.00</strong></div>
+            <p class="shipping-note" id="shippingNote">Shipping and taxes calculated at checkout.</p><button
+                class="primary-button checkout" id="checkoutButton">Continue to checkout <span
+                    aria-hidden="true">→</span></button>
+        </div>
+    </aside>
+    <div class="modal-wrap" id="loginModal">
+        <section class="modal" role="dialog" aria-modal="true" aria-labelledby="loginTitle"><button class="close-button"
+                id="closeLogin" aria-label="Close sign in">×</button>
+            <p class="section-kicker">Welcome back</p>
+            <h2 id="loginTitle">Sign in to E-Sales</h2>
+            <p>Keep your favorites close and checkout a little quicker.</p>
+            <form id="loginForm"><label class="form-label" for="emailInput">Email address</label><input
+                    class="form-input" id="emailInput" type="email" placeholder="you@example.com" autocomplete="email"
+                    required><label class="form-label" for="passwordInput">Password</label><input class="form-input"
+                    id="passwordInput" type="password" placeholder="At least 6 characters" minlength="6"
+                    autocomplete="current-password" required><button class="primary-button" type="submit">Sign in <span
+                        aria-hidden="true">→</span></button>
+                <div class="form-message" id="formMessage" aria-live="polite"></div>
+            </form>
+        </section>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
